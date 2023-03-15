@@ -45,6 +45,9 @@ a:hover{
 
 .hero-secondary-text, a, .footer {
     color: #E5E7EB;
+}
+
+.hero-secondary-text, a, .footer, .call-to-action-description {
     font-size: 18px;
 }
 
@@ -75,13 +78,12 @@ a:hover{
     font-weight: bolder;
 }
 
-.hero-main-text, .header-logo-text, button, .hero-image {
+.hero-main-text, .header-logo-text, button, .hero-image, .call-to-action {
     color: #F9FAF8;
 }
 
 button {
     border: 0;
-    border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
     padding: 12px 48px;
@@ -90,6 +92,7 @@ button {
 
 button, .call-to-action {
     background-color: #3882F6;
+    border-radius: 10px;
 }
 
 .hero-image {
@@ -110,6 +113,9 @@ button, .call-to-action {
 
 .information-header-text, .quote-text {
     color: #1F2937;
+}
+
+.information-header-text, .quote-text, .call-to-action-header {
     font-size: 36px;
 }
 
@@ -152,4 +158,23 @@ button, .call-to-action {
 .quote-author {
     font-size: 24px;
     font-weight: bold;
+}
+
+.call {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.call-to-action {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 80%;
+}
+
+.call-to-action-button {
+    border: 2px solid #F9FAF8;;
 }
