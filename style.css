@@ -2,11 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    margin: 0;
     min-height: 100vh;
 }
 
 .hero, .footer {
     background-color: #1F2937;
+    padding: 16px;
 }
 
 .hero-container {
@@ -71,7 +73,7 @@ a:hover{
     font-weight: bolder;
 }
 
-.hero-main-text, .header-logo-text, .header-button, .hero-image {
+.hero-main-text, .header-logo-text, button, .hero-image {
     color: #F9FAF8;
 }
 
@@ -104,7 +106,7 @@ button, .call-to-action {
     padding: 64px;
 }
 
-.information-header-text, .quote {
+.information-header-text, .quote-text {
     color: #1F2937;
     font-size: 36px;
 }
@@ -129,6 +131,23 @@ button, .call-to-action {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 64px;   
+}
+
+.quote-text {
     font-style: italic;
     font-weight: lighter;
+}
+
+.quote-container {
+    align-items: end;
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    width: 50%;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
 }
