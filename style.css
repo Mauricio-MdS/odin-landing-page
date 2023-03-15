@@ -95,9 +95,36 @@ button, .call-to-action {
     justify-content: center;
 }
 
+.information {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-evenly;
+    padding: 64px;
+}
+
 .information-header-text, .quote {
     color: #1F2937;
     font-size: 36px;
+}
+
+.card-list {
+    display: flex;
+    gap: 64px;
+}
+
+.card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.square {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    height: 200px;
+    margin-bottom: 8px;
+    width: 200px;
 }
 
 .quote {
