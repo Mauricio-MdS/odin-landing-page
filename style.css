@@ -124,7 +124,9 @@ button, .call-to-action {
 
 .card-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 64px;
+    justify-content: center;
 }
 
 .card {
@@ -173,6 +175,7 @@ button, .call-to-action {
 .call-to-action {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height: 200px;
     width: 80%;
